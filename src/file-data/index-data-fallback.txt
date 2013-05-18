@@ -1,0 +1,48 @@
+%db = (
+        '不知道' => bless( {
+                                '/home/noalac/Codes/Perl/file-operate/test-dir(1)/你好12300（不知道）know' => '1'
+                              }, 'DBM::Deep::Hash' ),
+        '你好' => bless( {
+                             '/home/noalac/Codes/Perl/file-operate/test-dir(1)/你好12300（不知道）know' => '1'
+                           }, 'DBM::Deep::Hash' ),
+        '噪声发生技术' => bless( {
+                                         '/home/noalac/Codes/Perl/file-operate/test-dir(1)/噪声发生技术.pdf' => '1'
+                                       }, 'DBM::Deep::Hash' ),
+        '我爱中国国共产当' => bless( {
+                                               '/home/noalac/Codes/Perl/file-operate/test-dir(1)/我爱中国国共产当' => '1'
+                                             }, 'DBM::Deep::Hash' ),
+        '素材' => bless( {
+                             '/home/noalac/Codes/Perl/file-operate/test-dir(1)/素材/banner素材.jpg' => '2',
+                             '/home/noalac/Codes/Perl/file-operate/test-dir(1)/素材/banner素材2.jpg' => '2',
+                             '/home/noalac/Codes/Perl/file-operate/test-dir(1)/素材' => '1'
+                           }, 'DBM::Deep::Hash' ),
+        '横条素材' => bless( {
+                                   '/home/noalac/Codes/Perl/file-operate/test-dir(1)/素材/buy横条素材.jpg' => '1',
+                                   '/home/noalac/Codes/Perl/file-operate/test-dir(1)/素材/横条素材.jpg' => '1'
+                                 }, 'DBM::Deep::Hash' ),
+        '牛皮纸素材' => bless( {
+                                      '/home/noalac/Codes/Perl/file-operate/test-dir(1)/素材/牛皮纸素材.jpg' => '1',
+                                      '/home/noalac/Codes/Perl/file-operate/test-dir(1)/素材/牛皮纸素材2.jpg' => '1'
+                                    }, 'DBM::Deep::Hash' ),
+        '白纸横条' => bless( {
+                                   '/home/noalac/Codes/Perl/file-operate/test-dir(1)/素材/白纸横条.jpg' => '1'
+                                 }, 'DBM::Deep::Hash' ),
+        '绿色横条' => bless( {
+                                   '/home/noalac/Codes/Perl/file-operate/test-dir(1)/素材/绿色横条.jpg' => '1'
+                                 }, 'DBM::Deep::Hash' ),
+        '限带模拟白噪声发生器设计' => bless( {
+                                                           '/home/noalac/Codes/Perl/file-operate/test-dir(1)/限带模拟白噪声发生器设计.pdf' => '1'
+                                                         }, 'DBM::Deep::Hash' ),
+        '波段宽带扫频噪声信号源' => bless( {
+                                                        '/home/noalac/Codes/Perl/file-operate/test-dir(1)/高功率S波段宽带扫频噪声信号源.pdf' => '1'
+                                                      }, 'DBM::Deep::Hash' ),
+        '高功率' => bless( {
+                                '/home/noalac/Codes/Perl/file-operate/test-dir(1)/高功率S波段宽带扫频噪声信号源.pdf' => '1'
+                              }, 'DBM::Deep::Hash' ),
+        '新建' => bless( {
+                             '/home/noalac/Codes/Perl/file-operate/test-dir(1)/（新建）' => '1'
+                           }, 'DBM::Deep::Hash' ),
+        '测试结果' => bless( {
+                                   '/home/noalac/Codes/Perl/software_design/测试结果' => '1'
+                                 }, 'DBM::Deep::Hash' )
+      );

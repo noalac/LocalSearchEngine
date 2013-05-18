@@ -1,0 +1,26 @@
+This folder contains some modules and scripts that HAVE BEEN USED in history.
+For some reasons, I dont want to use them any more.
+Anyway, that doesnt mean they are useless at all.
+So I collect them in this "abandoned" folder.
+
+Here are some reasons why I abanon them:
+
+1 Plu.pm: 
+I use Plucene within this module. The problem is slow, EXTREMELY slow. 
+I used it because it inherits from Lucene in Java.
+Unfortunately, the speed of Lucene didnt come along.
+It seems forever to index a txt file of, about, 30MB, which is unacceptable.
+Another reason is that Plucene is so hard to install, it requires lots of moduls, like sands.
+This unwelcome attributes  may cause problems on other platform like Windows.
+I use KinoSearch instead, it is stable and fast, easy to install as well. (PPM and MCPAN)
+
+2 Split_clean.pm
+I use this module to split words for indexing and searching.
+The problem happens in the Chinese parts.
+I want to delete all the Chinese symbols from file names with regexp.
+I cant write them directly into the script file like any other English strings.
+As the encoding may change cross different platforms, it will become unreadable.
+So I simply convert the Chinese string into hex codes for different platforms.  
+And this module can only be used on the platform using UTF-8 as default encoding.
+
+

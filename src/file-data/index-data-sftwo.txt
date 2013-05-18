@@ -1,0 +1,492 @@
+%db = (
+        'operate' => bless( {
+                              '/home/noalac/Codes/Perl/file-operate' => '1'
+                            }, 'DBM::Deep::Hash' ),
+        'search' => bless( {
+                             '/home/noalac/Codes/Perl/software_design/new_new_bk/search-engine/Search.pm' => '2',
+                             '/home/noalac/Codes/Perl/software_design/new_bk/search-engine/search-shell.pl' => '2',
+                             '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine.zip/search.t' => '2',
+                             '/home/noalac/Codes/Perl/software_design/new_new_new_bk/search-engine/Search.pm' => '2',
+                             '/home/noalac/Codes/Perl/kino-search/bk/kinosearch1-search.pl' => '3',
+                             '/home/noalac/Codes/Perl/software_design/search-engine/src/search-cmd.pl' => '2',
+                             '/home/noalac/Codes/Perl/kino-search/bk/kino-search.pl' => '2',
+                             '/home/noalac/Codes/Perl/software_design/new_bk/search-engine/search-cmd.pl' => '2',
+                             '/home/noalac/Codes/Perl/software_design/faster_try/search-engine/src/Search.pm' => '2',
+                             '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine.zip' => '1',
+                             '/home/noalac/Codes/Perl/software_design/new_new_new_bk/search-engine/search-cmd.pl' => '2',
+                             '/home/noalac/Codes/Perl/software_design/search-engine/src/search-shell.pl' => '2',
+                             '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine.zip/search-engine/src/BaiGoogleDu-shell' => '2',
+                             '/home/noalac/Codes/Perl/software_design/search-engine/t/search.t' => '2',
+                             '/home/noalac/Codes/Perl/software_design/bk_no_thread/search-engine' => '1',
+                             '/home/noalac/Codes/Perl/software_design/bk_no_thread/search-engine/search-shell.pl' => '2',
+                             '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine.zip/search-engine/src' => '2',
+                             '/home/noalac/Codes/Perl/software_design/search-engine' => '1',
+                             '/home/noalac/Codes/Perl/kino-search/kinosearch1-search.pl' => '3',
+                             '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine/src/search-cmd.pl' => '2',
+                             '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine/t/search.t' => '2',
+                             '/home/noalac/Codes/Perl/kino-search' => '1',
+                             '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/search-shell.pl' => '1',
+                             '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine/src/search-shell.pl' => '2',
+                             '/home/noalac/Codes/Perl/software_design/faster_try/search-engine/src/search-cmd.pl' => '2',
+                             '/home/noalac/Codes/Perl/software_design/bk/search-engine' => '1',
+                             '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine.zip/search-engine/src/abandoned' => '2',
+                             '/home/noalac/Codes/Perl/software_design/search-engine/src/Search.pm' => '2',
+                             '/home/noalac/Codes/Perl/software_design/new_new_new_bk/search-engine' => '1',
+                             '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine.zip/search-shell.pl' => '2',
+                             '/home/noalac/Codes/Perl/software_design/bk/search-engine/search-shell.pl' => '2',
+                             '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine.zip/search-engine' => '2',
+                             '/home/noalac/Codes/Perl/kino-search/kino-search.pl' => '2',
+                             '/home/noalac/Codes/Perl/software_design/new_bk/search-engine' => '1',
+                             '/home/noalac/Codes/Perl/software_design/faster_try/search-engine/src/search-shell.pl' => '2',
+                             '/home/noalac/Codes/Perl/software_design/new_new_new_bk/search-engine/search-shell.pl' => '2',
+                             '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine.zip/Search.pm' => '2',
+                             '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine' => '1',
+                             '/home/noalac/Codes/Perl/software_design/new_new_bk/search-engine' => '1',
+                             '/home/noalac/Codes/Perl/software_design/new_new_bk/search-engine/search-shell.pl' => '2',
+                             '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine.zip/search-engine/src/iPhone-shell' => '2',
+                             '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine.zip/search-cmd.pl' => '2',
+                             '/home/noalac/Codes/Perl/software_design/bk_no_thread/search-engine/Search.pm' => '2',
+                             '/home/noalac/Codes/Perl/software_design/bk/search-engine/Search.pm' => '2',
+                             '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine.zip/search-engine/src/content-data' => '2',
+                             '/home/noalac/Codes/Perl/software_design/new_bk/search-engine/Search.pm' => '2',
+                             '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine.zip/search-engine/t' => '2',
+                             '/home/noalac/Codes/Perl/software_design/faster_try/search-engine' => '1',
+                             '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine/src/Search.pm' => '2',
+                             '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/bk/search-shell.pl' => '1',
+                             '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine.zip/search-engine/src/file-data' => '2',
+                             '/home/noalac/Codes/Perl/software_design/new_new_bk/search-engine/search-cmd.pl' => '2'
+                           }, 'DBM::Deep::Hash' ),
+        'try' => bless( {
+                          '/home/noalac/Codes/Perl/software_design/faster_try' => '1'
+                        }, 'DBM::Deep::Hash' ),
+        'test' => bless( {
+                           '/home/noalac/Codes/Perl/Plucene/test-dir/test-cn.txt' => '2',
+                           '/home/noalac/Codes/Perl/file-operate/test_dbm.pl' => '1',
+                           '/home/noalac/Codes/Perl/bk/test.pl' => '1',
+                           '/home/noalac/Codes/Perl/file-operate/test-dir(1)' => '1',
+                           '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/else/turning_iphone/old/test_back.xcf' => '1',
+                           '/home/noalac/Codes/Perl/Plucene/test-dir' => '1',
+                           '/home/noalac/Codes/Perl/file-operate/test-dir(1)/*23\'s story/test-dir.zip' => '2',
+                           '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/else/test.gif' => '1',
+                           '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/else/turning_iphone/test2.xcf' => '1',
+                           '/home/noalac/Codes/Perl/software_design/bk_no_thread/search-engine/test_main.pl' => '1',
+                           '/home/noalac/Codes/Perl/Plucene/test_plucene.pl' => '1',
+                           '/home/noalac/Codes/Perl/software_design/bk/search-engine/test_main.pl' => '1',
+                           '/home/noalac/Codes/Perl/Plucene/test-dir/test-en.TXT' => '2',
+                           '/home/noalac/Codes/Perl/Plucene/test-dir/test-dir-en' => '2',
+                           '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/else/turning_iphone/test.gif' => '1',
+                           '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/else/turning_iphone/test2.gif' => '1',
+                           '/home/noalac/Codes/Perl/Plucene/bk/test_divide.pl' => '1',
+                           '/home/noalac/Codes/Perl/kino-search/test' => '1',
+                           '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/else/turning_iphone/old/test_slow.gif' => '1',
+                           '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/else/test.pl' => '1',
+                           '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/lab/test_ani.gif' => '1',
+                           '/home/noalac/Codes/Perl/file-operate/test-dir(1)/Psy/123.test          sadasd' => '2',
+                           '/home/noalac/Codes/Perl/HTML TreeBuilder/test.pl' => '1',
+                           '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/else/turning_iphone/test.xcf' => '1',
+                           '/home/noalac/Codes/Perl/file-operate/test_main.pl' => '1',
+                           '/home/noalac/Codes/Perl/Plucene/test-dir/test.htm' => '2',
+                           '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/else/turning_iphone/old/test.xcf' => '1'
+                         }, 'DBM::Deep::Hash' ),
+        'old' => bless( {
+                          '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/else/turning_iphone/old' => '1'
+                        }, 'DBM::Deep::Hash' ),
+        'tix' => bless( {
+                          '/home/noalac/Codes/Perl/file-operate/TixBook.pdf' => '1'
+                        }, 'DBM::Deep::Hash' ),
+        'segments' => bless( {
+                               '/home/noalac/Codes/Perl/Plucene/content-data/segments' => '1',
+                               '/home/noalac/Codes/Perl/kino-search/content-data/segments' => '1',
+                               '/home/noalac/Codes/Perl/kino-search/test/segments' => '1',
+                               '/home/noalac/Codes/Perl/software_design/faster_try/search-engine/src/content-data/segments' => '1',
+                               '/home/noalac/Codes/Perl/software_design/new_bk/search-engine/content-data/segments' => '1',
+                               '/home/noalac/Codes/Perl/software_design/new_new_bk/search-engine/content-data/segments' => '1',
+                               '/home/noalac/Codes/Perl/software_design/new_new_new_bk/search-engine/content-data/segments' => '1',
+                               '/home/noalac/Codes/Perl/software_design/search-engine/src/content-data/segments' => '1',
+                               '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine/src/content-data/segments' => '1',
+                               '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine.zip/segments' => '1'
+                             }, 'DBM::Deep::Hash' ),
+        'shell' => bless( {
+                            '/home/noalac/Codes/Perl/software_design/search-engine/src/iPhone-shell' => '1',
+                            '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine/src/iPhone-shell/shell_back.gif' => '2',
+                            '/home/noalac/Codes/Perl/software_design/new_new_new_bk/search-engine/iPhone-shell' => '1',
+                            '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine.zip/shell_vertical.gif' => '1',
+                            '/home/noalac/Codes/Perl/software_design/new_new_bk/search-engine/iPhone-shell/shell_vertical.gif' => '2',
+                            '/home/noalac/Codes/Perl/software_design/new_new_new_bk/search-engine/BaiGoogleDu-shell/shell_horizontal.gif' => '2',
+                            '/home/noalac/Codes/Perl/software_design/new_bk/search-engine/search-shell.pl' => '1',
+                            '/home/noalac/Codes/Perl/software_design/bk/search-engine/iphone-shell/shell_back.gif' => '2',
+                            '/home/noalac/Codes/Perl/software_design/bk_no_thread/search-engine/qb-shell' => '1',
+                            '/home/noalac/Codes/Perl/software_design/bk_no_thread/search-engine/iphone-shell/shell_vertical.gif' => '2',
+                            '/home/noalac/Codes/Perl/software_design/new_new_new_bk/search-engine/iPhone-shell/shell_horizontal.gif' => '2',
+                            '/home/noalac/Codes/Perl/software_design/bk/search-engine/qb-shell' => '1',
+                            '/home/noalac/Codes/Perl/software_design/search-engine/src/iPhone-shell/shell_horizontal.gif' => '2',
+                            '/home/noalac/Codes/Perl/software_design/bk_no_thread/search-engine/iphone-shell/shell_back.gif' => '2',
+                            '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/bk/iphone_shell_horizontal.gif' => '1',
+                            '/home/noalac/Codes/Perl/software_design/faster_try/search-engine/src/iPhone-shell/shell_back.gif' => '2',
+                            '/home/noalac/Codes/Perl/software_design/new_bk/search-engine/iPhone-shell/shell_back.gif' => '2',
+                            '/home/noalac/Codes/Perl/software_design/bk/search-engine/iphone-shell/shell_horizontal.gif' => '2',
+                            '/home/noalac/Codes/Perl/software_design/new_new_new_bk/search-engine/BaiGoogleDu-shell' => '1',
+                            '/home/noalac/Codes/Perl/software_design/faster_try/search-engine/src/BaiGoogleDu-shell/shell_back.gif' => '2',
+                            '/home/noalac/Codes/Perl/software_design/search-engine/src/search-shell.pl' => '1',
+                            '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine.zip/search-engine/src/BaiGoogleDu-shell' => '1',
+                            '/home/noalac/Codes/Perl/software_design/new_new_bk/search-engine/iPhone-shell/shell_horizontal.gif' => '2',
+                            '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine/src/BaiGoogleDu-shell/shell_vertical.gif' => '2',
+                            '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/lab/iphone_shell_vertical.gif' => '1',
+                            '/home/noalac/Codes/Perl/software_design/new_bk/search-engine/iPhone-shell' => '1',
+                            '/home/noalac/Codes/Perl/software_design/faster_try/search-engine/src/BaiGoogleDu-shell/shell_vertical.gif' => '2',
+                            '/home/noalac/Codes/Perl/software_design/bk_no_thread/search-engine/search-shell.pl' => '1',
+                            '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/iphone_shell_vertical.gif' => '1',
+                            '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/lab/iphone_shell_horizontal.gif' => '1',
+                            '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/bk/iphone_shell.gif' => '1',
+                            '/home/noalac/Codes/Perl/software_design/new_new_bk/search-engine/iPhone-shell' => '1',
+                            '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/iphone_shell_horizontal.gif' => '1',
+                            '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/search-shell.pl' => '1',
+                            '/home/noalac/Codes/Perl/software_design/new_new_new_bk/search-engine/iPhone-shell/shell_back.gif' => '2',
+                            '/home/noalac/Codes/Perl/software_design/search-engine/src/BaiGoogleDu-shell' => '1',
+                            '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine.zip/shell_back.gif' => '1',
+                            '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine/src/search-shell.pl' => '1',
+                            '/home/noalac/Codes/Perl/software_design/new_bk/search-engine/iPhone-shell/shell_vertical.gif' => '2',
+                            '/home/noalac/Codes/Perl/software_design/faster_try/search-engine/src/iPhone-shell' => '1',
+                            '/home/noalac/Codes/Perl/software_design/new_new_bk/search-engine/iPhone-shell/shell_back.gif' => '2',
+                            '/home/noalac/Codes/Perl/software_design/new_new_bk/search-engine/BaiGoogleDu-shell' => '1',
+                            '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine/src/BaiGoogleDu-shell' => '1',
+                            '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/lab/iphone_shell.gif' => '1',
+                            '/home/noalac/Codes/Perl/software_design/search-engine/src/BaiGoogleDu-shell/shell_back.gif' => '2',
+                            '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine/src/BaiGoogleDu-shell/shell_back.gif' => '2',
+                            '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine.zip/search-shell.pl' => '1',
+                            '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine.zip/shell_horizontal.gif' => '1',
+                            '/home/noalac/Codes/Perl/software_design/new_new_new_bk/search-engine/BaiGoogleDu-shell/shell_back.gif' => '2',
+                            '/home/noalac/Codes/Perl/software_design/bk/search-engine/search-shell.pl' => '1',
+                            '/home/noalac/Codes/Perl/software_design/bk/search-engine/iphone-shell' => '1',
+                            '/home/noalac/Codes/Perl/software_design/faster_try/search-engine/src/BaiGoogleDu-shell' => '1',
+                            '/home/noalac/Codes/Perl/software_design/faster_try/search-engine/src/search-shell.pl' => '1',
+                            '/home/noalac/Codes/Perl/software_design/new_new_new_bk/search-engine/search-shell.pl' => '1',
+                            '/home/noalac/Codes/Perl/software_design/search-engine/src/BaiGoogleDu-shell/shell_horizontal.gif' => '2',
+                            '/home/noalac/Codes/Perl/software_design/new_new_bk/search-engine/BaiGoogleDu-shell/shell_vertical.gif' => '2',
+                            '/home/noalac/Codes/Perl/software_design/new_bk/search-engine/BaiGoogleDu-shell/shell_vertical.gif' => '2',
+                            '/home/noalac/Codes/Perl/software_design/new_bk/search-engine/BaiGoogleDu-shell/shell_horizontal.gif' => '2',
+                            '/home/noalac/Codes/Perl/software_design/new_new_bk/search-engine/BaiGoogleDu-shell/shell_horizontal.gif' => '2',
+                            '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine/src/iPhone-shell' => '1',
+                            '/home/noalac/Codes/Perl/software_design/bk_no_thread/search-engine/iphone-shell' => '1',
+                            '/home/noalac/Codes/Perl/software_design/new_new_bk/search-engine/search-shell.pl' => '1',
+                            '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine/src/iPhone-shell/shell_vertical.gif' => '2',
+                            '/home/noalac/Codes/Perl/software_design/new_new_new_bk/search-engine/iPhone-shell/shell_vertical.gif' => '2',
+                            '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine.zip/search-engine/src/iPhone-shell' => '1',
+                            '/home/noalac/Codes/Perl/software_design/new_bk/search-engine/BaiGoogleDu-shell/shell_back.gif' => '2',
+                            '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/bk/iphone_shell_vertical.gif' => '1',
+                            '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine/src/BaiGoogleDu-shell/shell_horizontal.gif' => '2',
+                            '/home/noalac/Codes/Perl/software_design/faster_try/search-engine/src/iPhone-shell/shell_vertical.gif' => '2',
+                            '/home/noalac/Codes/Perl/software_design/new_new_new_bk/search-engine/BaiGoogleDu-shell/shell_vertical.gif' => '2',
+                            '/home/noalac/Codes/Perl/software_design/search-engine/src/iPhone-shell/shell_vertical.gif' => '2',
+                            '/home/noalac/Codes/Perl/software_design/search-engine/src/BaiGoogleDu-shell/shell_vertical.gif' => '2',
+                            '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/bk/search-shell.pl' => '1',
+                            '/home/noalac/Codes/Perl/software_design/new_bk/search-engine/BaiGoogleDu-shell' => '1',
+                            '/home/noalac/Codes/Perl/software_design/faster_try/search-engine/src/iPhone-shell/shell_horizontal.gif' => '2',
+                            '/home/noalac/Codes/Perl/software_design/new_new_bk/search-engine/BaiGoogleDu-shell/shell_back.gif' => '2',
+                            '/home/noalac/Codes/Perl/software_design/search-engine/src/iPhone-shell/shell_back.gif' => '2',
+                            '/home/noalac/Codes/Perl/software_design/faster_try/search-engine/src/BaiGoogleDu-shell/shell_horizontal.gif' => '2',
+                            '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine/src/iPhone-shell/shell_horizontal.gif' => '2',
+                            '/home/noalac/Codes/Perl/software_design/bk/search-engine/iphone-shell/shell_vertical.gif' => '2',
+                            '/home/noalac/Codes/Perl/software_design/bk_no_thread/search-engine/iphone-shell/shell_horizontal.gif' => '2',
+                            '/home/noalac/Codes/Perl/software_design/new_bk/search-engine/iPhone-shell/shell_horizontal.gif' => '2'
+                          }, 'DBM::Deep::Hash' ),
+        'src' => bless( {
+                          '/home/noalac/Codes/Perl/software_design/faster_try/search-engine/src' => '1',
+                          '/home/noalac/Codes/Perl/software_design/search-engine/src' => '1',
+                          '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine/src' => '1',
+                          '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine.zip/search-engine/src/iPhone-shell' => '1',
+                          '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine.zip/search-engine/src/BaiGoogleDu-shell' => '1',
+                          '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine.zip/search-engine/src/abandoned' => '1',
+                          '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine.zip/search-engine/src' => '1',
+                          '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine.zip/search-engine/src/file-data' => '1',
+                          '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine.zip/search-engine/src/content-data' => '1'
+                        }, 'DBM::Deep::Hash' ),
+        'source' => bless( {
+                             '/home/noalac/Codes/Perl/bk/source.tcl' => '1'
+                           }, 'DBM::Deep::Hash' ),
+        'fd' => bless( {
+                         '/home/noalac/Codes/Perl/file-operate/test-dir(1)/Funny Gif/e81f0ef41bd5ad6eb9ae683281cb39dbb7fd3c92.jpg.gif' => '1'
+                       }, 'DBM::Deep::Hash' ),
+        'temp' => bless( {
+                           '/home/noalac/Codes/Perl/software_design/search-engine/src/file-data/temp-data-cmbnq.db' => '1',
+                           '/home/noalac/Codes/Perl/software_design/search-engine/src/file-data/temp-data-dlhxzy.db' => '1',
+                           '/home/noalac/Codes/Perl/software_design/search-engine/src/file-data/temp-data-fallback.db' => '1',
+                           '/home/noalac/Codes/Perl/software_design/search-engine/src/file-data/temp-data-garvk.db' => '1',
+                           '/home/noalac/Codes/Perl/software_design/search-engine/src/file-data/temp-data-number.db' => '1',
+                           '/home/noalac/Codes/Perl/software_design/search-engine/src/file-data/temp-data-pieuj.db' => '1',
+                           '/home/noalac/Codes/Perl/software_design/search-engine/src/file-data/temp-data-sftwo.db' => '1'
+                         }, 'DBM::Deep::Hash' ),
+        'fallback' => bless( {
+                               '/home/noalac/Codes/Perl/software_design/bk/file-data/md5checksum-fallback' => '1',
+                               '/home/noalac/Codes/Perl/software_design/search-engine/src/file-data/md5checksum-fallback' => '1',
+                               '/home/noalac/Codes/Perl/software_design/search-engine/src/file-data/temp-data-fallback.db' => '1',
+                               '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine/src/file-data/md5checksum-fallback' => '1',
+                               '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine.zip/md5checksum-fallback' => '1'
+                             }, 'DBM::Deep::Hash' ),
+        'slow' => bless( {
+                           '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/else/turning_iphone/old/test_slow.gif' => '1'
+                         }, 'DBM::Deep::Hash' ),
+        'testiphone' => bless( {
+                                 '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/else/testiphone.xcf' => '1',
+                                 '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/else/testiphone3.xcf' => '1'
+                               }, 'DBM::Deep::Hash' ),
+        'scan' => bless( {
+                           '/home/noalac/Codes/Perl/Audio Scan' => '1'
+                         }, 'DBM::Deep::Hash' ),
+        'turning' => bless( {
+                              '/home/noalac/Codes/Perl/software_design/search-engine/src/BaiGoogleDu-shell/turning.gif' => '1',
+                              '/home/noalac/Codes/Perl/software_design/new_bk/search-engine/iPhone-shell/turning.gif' => '1',
+                              '/home/noalac/Codes/Perl/software_design/bk_no_thread/search-engine/iphone-shell/turning.gif' => '1',
+                              '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine/src/iPhone-shell/turning.gif' => '1',
+                              '/home/noalac/Codes/Perl/software_design/new_new_bk/search-engine/iPhone-shell/turning.gif' => '1',
+                              '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/else/turning_iphone/old/turning.gif' => '2',
+                              '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine.zip/turning.gif' => '1',
+                              '/home/noalac/Codes/Perl/software_design/new_new_new_bk/search-engine/iPhone-shell/turning.gif' => '1',
+                              '/home/noalac/Codes/Perl/software_design/new_new_new_bk/search-engine/BaiGoogleDu-shell/turning.gif' => '1',
+                              '/home/noalac/Codes/Perl/software_design/bk/turning1.gif' => '1',
+                              '/home/noalac/Codes/Perl/software_design/search-engine/src/iPhone-shell/turning.gif' => '1',
+                              '/home/noalac/Codes/Perl/software_design/faster_try/search-engine/src/iPhone-shell/turning.gif' => '1',
+                              '/home/noalac/Codes/Perl/software_design/new_new_bk/search-engine/BaiGoogleDu-shell/turning.gif' => '1',
+                              '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/else/turning_iphone' => '1',
+                              '/home/noalac/Codes/Perl/software_design/bk/search-engine/iphone-shell/turning.gif' => '1',
+                              '/home/noalac/Codes/Perl/software_design/faster_try/search-engine/src/BaiGoogleDu-shell/turning.gif' => '1',
+                              '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine/src/BaiGoogleDu-shell/turning.gif' => '1',
+                              '/home/noalac/Codes/Perl/software_design/new_bk/search-engine/BaiGoogleDu-shell/turning.gif' => '1'
+                            }, 'DBM::Deep::Hash' ),
+        'only' => bless( {
+                           '/home/noalac/Codes/Perl/Audio Scan/only.mp4' => '1'
+                         }, 'DBM::Deep::Hash' ),
+        'folder' => bless( {
+                             '/home/noalac/Codes/Perl/bk/folder.gif' => '1',
+                             '/home/noalac/Codes/Perl/software_design/faster_try/search-engine/src/BaiGoogleDu-shell/folder.gif' => '1',
+                             '/home/noalac/Codes/Perl/software_design/faster_try/search-engine/src/iPhone-shell/folder.gif' => '1',
+                             '/home/noalac/Codes/Perl/software_design/new_bk/search-engine/BaiGoogleDu-shell/folder.gif' => '1',
+                             '/home/noalac/Codes/Perl/software_design/new_bk/search-engine/iPhone-shell/folder.gif' => '1',
+                             '/home/noalac/Codes/Perl/software_design/new_new_bk/search-engine/BaiGoogleDu-shell/folder.gif' => '1',
+                             '/home/noalac/Codes/Perl/software_design/new_new_bk/search-engine/iPhone-shell/folder.gif' => '1',
+                             '/home/noalac/Codes/Perl/software_design/new_new_new_bk/search-engine/BaiGoogleDu-shell/folder.gif' => '1',
+                             '/home/noalac/Codes/Perl/software_design/new_new_new_bk/search-engine/iPhone-shell/folder.gif' => '1',
+                             '/home/noalac/Codes/Perl/software_design/search-engine/src/BaiGoogleDu-shell/folder.gif' => '1',
+                             '/home/noalac/Codes/Perl/software_design/search-engine/src/iPhone-shell/folder.gif' => '1',
+                             '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine/src/BaiGoogleDu-shell/folder.gif' => '1',
+                             '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine/src/iPhone-shell/folder.gif' => '1',
+                             '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine.zip/folder.gif' => '1'
+                           }, 'DBM::Deep::Hash' ),
+        'funny' => bless( {
+                            '/home/noalac/Codes/Perl/file-operate/test-dir(1)/Funny Gif' => '1'
+                          }, 'DBM::Deep::Hash' ),
+        'ontop' => bless( {
+                            '/home/noalac/Codes/Perl/software_design/ontop.tcl' => '1'
+                          }, 'DBM::Deep::Hash' ),
+        'fix' => bless( {
+                          '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/else/white-iphone-fix.jpg' => '1'
+                        }, 'DBM::Deep::Hash' ),
+        'first' => bless( {
+                            '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/else/tk-first-blood.pl' => '1',
+                            '/home/noalac/Codes/Perl/Perl-Tk/perl-tk-first-blood.pl' => '1'
+                          }, 'DBM::Deep::Hash' ),
+        'file' => bless( {
+                           '/home/noalac/Codes/Perl/software_design/new_new_bk/search-engine/iPhone-shell/file.gif' => '1',
+                           '/home/noalac/Codes/Perl/software_design/new_new_new_bk/search-engine/BaiGoogleDu-shell/file.gif' => '1',
+                           '/home/noalac/Codes/Perl/software_design/new_bk/search-engine/BaiGoogleDu-shell/file.gif' => '1',
+                           '/home/noalac/Codes/Perl/software_design/faster_try/search-engine/src/iPhone-shell/file.gif' => '1',
+                           '/home/noalac/Codes/Perl/software_design/search-engine/src/BaiGoogleDu-shell/file.gif' => '1',
+                           '/home/noalac/Codes/Perl/software_design/new_new_bk/search-engine/BaiGoogleDu-shell/file.gif' => '1',
+                           '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine.zip/file.gif' => '1',
+                           '/home/noalac/Codes/Perl/bk/file.gif' => '1',
+                           '/home/noalac/Codes/Perl/software_design/search-engine/src/file-data' => '1',
+                           '/home/noalac/Codes/Perl/software_design/bk/file-data' => '1',
+                           '/home/noalac/Codes/Perl/software_design/new_bk/search-engine/iPhone-shell/file.gif' => '1',
+                           '/home/noalac/Codes/Perl/Plucene/test-dir/test-dir-en/en-file1.txt' => '1',
+                           '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine/src/file-data' => '1',
+                           '/home/noalac/Codes/Perl/software_design/search-engine/src/iPhone-shell/file.gif' => '1',
+                           '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine/src/iPhone-shell/file.gif' => '1',
+                           '/home/noalac/Codes/Perl/Plucene/test-dir/test-dir-en/en-file2.txt' => '1',
+                           '/home/noalac/Codes/Perl/software_design/new_new_new_bk/search-engine/iPhone-shell/file.gif' => '1',
+                           '/home/noalac/Codes/Perl/file-operate' => '1',
+                           '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine/src/BaiGoogleDu-shell/file.gif' => '1',
+                           '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine.zip/search-engine/src/file-data' => '1',
+                           '/home/noalac/Codes/Perl/software_design/faster_try/search-engine/src/BaiGoogleDu-shell/file.gif' => '1'
+                         }, 'DBM::Deep::Hash' ),
+        'simple' => bless( {
+                             '/home/noalac/Codes/Perl/Plucene/plucene_simple.pl' => '1'
+                           }, 'DBM::Deep::Hash' ),
+        'subroutines' => bless( {
+                                  '/home/noalac/Codes/Perl/Mastering Perl/Dynamic Subroutines' => '1'
+                                }, 'DBM::Deep::Hash' ),
+        'siri' => bless( {
+                           '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/else/siri.gif' => '1',
+                           '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/else/siri.xcf' => '1'
+                         }, 'DBM::Deep::Hash' ),
+        'wm' => bless( {
+                         '/home/noalac/Codes/Perl/software_design/search-engine/src/BaiGoogleDu-shell/wm_icon.gif' => '1',
+                         '/home/noalac/Codes/Perl/software_design/search-engine/src/iPhone-shell/wm_icon.gif' => '1',
+                         '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine/src/BaiGoogleDu-shell/wm_icon.gif' => '1',
+                         '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine/src/iPhone-shell/wm_icon.gif' => '1',
+                         '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine.zip/wm_icon.gif' => '1'
+                       }, 'DBM::Deep::Hash' ),
+        'subs' => bless( {
+                           '/home/noalac/Codes/Perl/Mastering Perl/Dynamic Subroutines/Dynamic_Subs.pl' => '1'
+                         }, 'DBM::Deep::Hash' ),
+        'totally' => bless( {
+                              '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk' => '1'
+                            }, 'DBM::Deep::Hash' ),
+        'side' => bless( {
+                           '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/else/iphone_side.gif' => '1',
+                           '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/else/iphone_side.xcf' => '1'
+                         }, 'DBM::Deep::Hash' ),
+        'style' => bless( {
+                            '/home/noalac/Codes/Perl/Audio Scan/Style.mp3' => '1',
+                            '/home/noalac/Codes/Perl/file-operate/test-dir(1)/ABC     0003/Style.mp3' => '1',
+                            '/home/noalac/Codes/Perl/file-operate/test-dir(1)/Psy/Style.mp3' => '1'
+                          }, 'DBM::Deep::Hash' ),
+        'turnback' => bless( {
+                               '/home/noalac/Codes/Perl/software_design/bk/search-engine/iphone-shell/turnback.gif' => '1',
+                               '/home/noalac/Codes/Perl/software_design/bk/turnback1.gif' => '1',
+                               '/home/noalac/Codes/Perl/software_design/bk_no_thread/search-engine/iphone-shell/turnback.gif' => '1',
+                               '/home/noalac/Codes/Perl/software_design/faster_try/search-engine/src/BaiGoogleDu-shell/turnback.gif' => '1',
+                               '/home/noalac/Codes/Perl/software_design/faster_try/search-engine/src/iPhone-shell/turnback.gif' => '1',
+                               '/home/noalac/Codes/Perl/software_design/new_bk/search-engine/BaiGoogleDu-shell/turnback.gif' => '1',
+                               '/home/noalac/Codes/Perl/software_design/new_bk/search-engine/iPhone-shell/turnback.gif' => '1',
+                               '/home/noalac/Codes/Perl/software_design/new_new_bk/search-engine/BaiGoogleDu-shell/turnback.gif' => '1',
+                               '/home/noalac/Codes/Perl/software_design/new_new_bk/search-engine/iPhone-shell/turnback.gif' => '1',
+                               '/home/noalac/Codes/Perl/software_design/new_new_new_bk/search-engine/BaiGoogleDu-shell/turnback.gif' => '1',
+                               '/home/noalac/Codes/Perl/software_design/new_new_new_bk/search-engine/iPhone-shell/turnback.gif' => '1',
+                               '/home/noalac/Codes/Perl/software_design/search-engine/src/BaiGoogleDu-shell/turnback.gif' => '1',
+                               '/home/noalac/Codes/Perl/software_design/search-engine/src/iPhone-shell/turnback.gif' => '1',
+                               '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine/src/BaiGoogleDu-shell/turnback.gif' => '1',
+                               '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine/src/iPhone-shell/turnback.gif' => '1',
+                               '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine.zip/turnback.gif' => '1'
+                             }, 'DBM::Deep::Hash' ),
+        'turn' => bless( {
+                           '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/else/turning_iphone/old/turn_back.gif' => '2'
+                         }, 'DBM::Deep::Hash' ),
+        'second' => bless( {
+                             '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/else/tk-second-blood.pl' => '1'
+                           }, 'DBM::Deep::Hash' ),
+        'tk' => bless( {
+                         '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/else/tk-first-blood.pl' => '3',
+                         '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/else/tk-second-blood.pl' => '3',
+                         '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk' => '2',
+                         '/home/noalac/Codes/Perl/Perl-Tk/perl-tk-first-blood.pl' => '2',
+                         '/home/noalac/Codes/Perl/Perl-Tk' => '1'
+                       }, 'DBM::Deep::Hash' ),
+        'so' => bless( {
+                         '/home/noalac/Codes/Perl/Perl-Tk/listbox_and_so_on.pl' => '1'
+                       }, 'DBM::Deep::Hash' ),
+        'story' => bless( {
+                            '/home/noalac/Codes/Perl/file-operate/test-dir(1)/*23\'s story' => '1'
+                          }, 'DBM::Deep::Hash' ),
+        'tree' => bless( {
+                           '/home/noalac/Codes/Perl/HTML TreeBuilder' => '1',
+                           '/home/noalac/Codes/Perl/file-operate/version1/Tree.pm' => '1'
+                         }, 'DBM::Deep::Hash' ),
+        'txt' => bless( {
+                          '/home/noalac/Codes/Perl/Perl-Tk/Whats needed.txt~' => '1'
+                        }, 'DBM::Deep::Hash' ),
+        'whats' => bless( {
+                            '/home/noalac/Codes/Perl/Perl-Tk/Whats needed.txt' => '1',
+                            '/home/noalac/Codes/Perl/Perl-Tk/Whats needed.txt~' => '1'
+                          }, 'DBM::Deep::Hash' ),
+        'sadasd' => bless( {
+                             '/home/noalac/Codes/Perl/file-operate/test-dir(1)/Psy/123.test          sadasd' => '1'
+                           }, 'DBM::Deep::Hash' ),
+        'sftwo' => bless( {
+                            '/home/noalac/Codes/Perl/software_design/bk/file-data/md5checksum-sftwo' => '1',
+                            '/home/noalac/Codes/Perl/software_design/search-engine/src/file-data/md5checksum-sftwo' => '1',
+                            '/home/noalac/Codes/Perl/software_design/search-engine/src/file-data/temp-data-sftwo.db' => '1',
+                            '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine/src/file-data/md5checksum-sftwo' => '1',
+                            '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine.zip/md5checksum-sftwo' => '1'
+                          }, 'DBM::Deep::Hash' ),
+        'white' => bless( {
+                            '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/else/white-iphone-fix.jpg' => '1'
+                          }, 'DBM::Deep::Hash' ),
+        'thread' => bless( {
+                             '/home/noalac/Codes/Perl/software_design/bk_no_thread' => '1'
+                           }, 'DBM::Deep::Hash' ),
+        'faster' => bless( {
+                             '/home/noalac/Codes/Perl/software_design/faster_try' => '1'
+                           }, 'DBM::Deep::Hash' ),
+        'tcl' => bless( {
+                          '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk' => '1',
+                          '/home/noalac/Codes/Perl/software_design/faster_try/search-engine/src/iPhone-shell/config.tcl~' => '1',
+                          '/home/noalac/Codes/Perl/software_design/new_bk/search-engine/iPhone-shell/config.tcl~' => '1',
+                          '/home/noalac/Codes/Perl/software_design/new_new_bk/search-engine/iPhone-shell/config.tcl~' => '1',
+                          '/home/noalac/Codes/Perl/software_design/new_new_new_bk/search-engine/iPhone-shell/config.tcl~' => '1'
+                        }, 'DBM::Deep::Hash' ),
+        'startup' => bless( {
+                              '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine/Startup.pl' => '1',
+                              '/home/noalac/Codes/Perl/software_design/new_new_new_bk/search-engine/BaiGoogleDu-shell/startup.gif' => '1',
+                              '/home/noalac/Codes/Perl/software_design/new_new_new_bk/search-engine/iPhone-shell/startup.gif' => '1',
+                              '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine/src/BaiGoogleDu-shell/startup.gif' => '1',
+                              '/home/noalac/Codes/Perl/software_design/new_new_bk/search-engine/iPhone-shell/startup.gif' => '1',
+                              '/home/noalac/Codes/Perl/software_design/search-engine/src/BaiGoogleDu-shell/startup.gif' => '1',
+                              '/home/noalac/Codes/Perl/software_design/new_bk/search-engine/BaiGoogleDu-shell/startup.gif' => '1',
+                              '/home/noalac/Codes/Perl/software_design/bk/search-engine/iphone-shell/startup.gif' => '1',
+                              '/home/noalac/Codes/Perl/software_design/faster_try/search-engine/src/BaiGoogleDu-shell/startup.gif' => '1',
+                              '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine/src/iPhone-shell/startup.gif' => '1',
+                              '/home/noalac/Codes/Perl/software_design/bk_no_thread/search-engine/iphone-shell/startup.gif' => '1',
+                              '/home/noalac/Codes/Perl/software_design/new_bk/search-engine/iPhone-shell/startup.gif' => '1',
+                              '/home/noalac/Codes/Perl/software_design/new_new_bk/search-engine/BaiGoogleDu-shell/startup.gif' => '1',
+                              '/home/noalac/Codes/Perl/software_design/faster_try/search-engine/Startup.tcl' => '1',
+                              '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine.zip/Startup.pl' => '1',
+                              '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine.zip/startup.gif' => '1',
+                              '/home/noalac/Codes/Perl/software_design/faster_try/search-engine/src/iPhone-shell/startup.gif' => '1',
+                              '/home/noalac/Codes/Perl/software_design/search-engine/Startup.pl' => '1',
+                              '/home/noalac/Codes/Perl/software_design/search-engine/src/iPhone-shell/startup.gif' => '1',
+                              '/home/noalac/Codes/Perl/software_design/faster_try/search-engine/Startup.pl' => '1'
+                            }, 'DBM::Deep::Hash' ),
+        'front' => bless( {
+                            '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/else/iphone_front.gif' => '1',
+                            '/home/noalac/Codes/Perl/Perl-Tk/Perl-Tcl-Tk/else/iphone_front.xcf' => '1'
+                          }, 'DBM::Deep::Hash' ),
+        'on' => bless( {
+                         '/home/noalac/Codes/Perl/Perl-Tk/listbox_and_so_on.pl' => '1'
+                       }, 'DBM::Deep::Hash' ),
+        'split' => bless( {
+                            '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine.zip/split.t' => '1',
+                            '/home/noalac/Codes/Perl/software_design/bk_no_thread/search-engine/Split_clean.pm' => '1',
+                            '/home/noalac/Codes/Perl/software_design/bk/search-engine/Split.pm' => '1',
+                            '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine.zip/Split.pm' => '1',
+                            '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine/src/Split.pm' => '1',
+                            '/home/noalac/Codes/Perl/Split' => '1',
+                            '/home/noalac/Codes/Perl/software_design/faster_try/search-engine/src/Split.pm' => '1',
+                            '/home/noalac/Codes/Perl/software_design/bk_no_thread/search-engine/Split.pm' => '1',
+                            '/home/noalac/Codes/Perl/software_design/new_bk/search-engine/Split_clean.pm' => '1',
+                            '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine/src/abandoned/Split_clean.pm' => '1',
+                            '/home/noalac/Codes/Perl/file-operate/version1/Split.pm' => '1',
+                            '/home/noalac/Codes/Perl/file-operate/Split.pm' => '1',
+                            '/home/noalac/Codes/Perl/software_design/search-engine/t/split.t' => '1',
+                            '/home/noalac/Codes/Perl/software_design/faster_try/search-engine/src/Split_clean.pm' => '1',
+                            '/home/noalac/Codes/Perl/software_design/new_bk/search-engine/Split.pm' => '1',
+                            '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine.zip/Split_clean.pm' => '1',
+                            '/home/noalac/Codes/Perl/software_design/search-engine/src/abandoned/Split_clean.pm' => '1',
+                            '/home/noalac/Codes/Perl/software_design/new_new_new_bk/search-engine/Split.pm' => '1',
+                            '/home/noalac/Codes/Perl/software_design/new_new_new_bk/search-engine/Split_clean.pm' => '1',
+                            '/home/noalac/Codes/Perl/software_design/bk/search-engine/Split_capable.pm' => '1',
+                            '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine/t/split.t' => '1',
+                            '/home/noalac/Codes/Perl/software_design/search-engine/src/Split.pm' => '1',
+                            '/home/noalac/Codes/Perl/software_design/new_new_bk/search-engine/Split.pm' => '1',
+                            '/home/noalac/Codes/Perl/software_design/new_new_bk/search-engine/Split_clean.pm' => '1'
+                          }, 'DBM::Deep::Hash' ),
+        'option' => bless( {
+                             '/home/noalac/Codes/Perl/software_design/bk/search-engine/iphone-shell/option_bg.gif' => '1',
+                             '/home/noalac/Codes/Perl/software_design/bk_no_thread/search-engine/iphone-shell/option_bg.gif' => '1',
+                             '/home/noalac/Codes/Perl/software_design/faster_try/search-engine/src/BaiGoogleDu-shell/option_bg.gif' => '1',
+                             '/home/noalac/Codes/Perl/software_design/faster_try/search-engine/src/iPhone-shell/option_bg.gif' => '1',
+                             '/home/noalac/Codes/Perl/software_design/new_bk/search-engine/BaiGoogleDu-shell/option_bg.gif' => '1',
+                             '/home/noalac/Codes/Perl/software_design/new_bk/search-engine/iPhone-shell/option_bg.gif' => '1',
+                             '/home/noalac/Codes/Perl/software_design/new_new_bk/search-engine/BaiGoogleDu-shell/option_bg.gif' => '1',
+                             '/home/noalac/Codes/Perl/software_design/new_new_bk/search-engine/iPhone-shell/option_bg.gif' => '1',
+                             '/home/noalac/Codes/Perl/software_design/new_new_new_bk/search-engine/BaiGoogleDu-shell/option_bg.gif' => '1',
+                             '/home/noalac/Codes/Perl/software_design/new_new_new_bk/search-engine/iPhone-shell/option_bg.gif' => '1',
+                             '/home/noalac/Codes/Perl/software_design/search-engine/src/BaiGoogleDu-shell/option_bg.gif' => '1',
+                             '/home/noalac/Codes/Perl/software_design/search-engine/src/iPhone-shell/option_bg.gif' => '1',
+                             '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine/src/BaiGoogleDu-shell/option_bg.gif' => '1',
+                             '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine/src/iPhone-shell/option_bg.gif' => '1',
+                             '/home/noalac/Codes/Perl/software_design/totally_brand_new_bk/search-engine.zip/option_bg.gif' => '1'
+                           }, 'DBM::Deep::Hash' ),
+        'software' => bless( {
+                               '/home/noalac/Codes/Perl/software_design' => '1'
+                             }, 'DBM::Deep::Hash' )
+      );
