@@ -1,11 +1,13 @@
 LocalSearchEngine
 =================
 
-Perl implementation of local file-system searching engine
+Perl implementation of local file-system searching engine. 
+Run "Startup.pl" to launch this software. 
+Two themes are provided: (1) iPhone (2) BaiGoogleDu
 
 Prerequisite Perl Modules:
 * DBM::Deep
-* Tck::Tk
+* Tcl::Tk
 * Encode::Detect::Detector
 * AudioFile::Info
 * MP4::Info
