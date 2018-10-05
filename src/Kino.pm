@@ -12,7 +12,7 @@ use CAM::PDF;
 use KinoSearch1::InvIndexer;
 use KinoSearch1::Analysis::PolyAnalyzer;
 use KinoSearch1::Searcher;
-use KinoSearch1::Analysis::PolyAnalyzer;
+#use KinoSearch1::Analysis::PolyAnalyzer;
 
 require Exporter;
 use vars qw(@ISA @EXPORT @EXPORT_OK $VERSION);

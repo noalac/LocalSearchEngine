@@ -19,4 +19,10 @@ Prerequisite Perl Modules:
 * Net::Ping::External
 * Archive::Zip
 * Digest::MD5
+* File::Find::Rule
+* KinoSearch1::InvIndexer
+* KinoSearch1::Analysis::PolyAnalyzer
+* KinoSearch1::Searcher
+
+
 
